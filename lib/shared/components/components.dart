@@ -86,33 +86,23 @@ Widget buildTaskItem(Map model , context) => Dismissible(
             style: TextStyle(
   
               color: Colors.white,
-  
-            ),
-  
+             ),
           ),
-  
         ),
   
         const SizedBox(
   
           width: 10.0,
-  
         ),
   
         Expanded(
-  
           child: Column(
-  
             mainAxisSize: MainAxisSize.min,
-  
             crossAxisAlignment: CrossAxisAlignment.start,
-  
             children:
   
             [
-  
               Text(
-  
                 '${model['title']}',
   
                 style: TextStyle(
@@ -126,9 +116,7 @@ Widget buildTaskItem(Map model , context) => Dismissible(
               ),
   
               SizedBox(
-  
                 height: 10.0,
-  
               ),
   
               Text(
@@ -142,19 +130,12 @@ Widget buildTaskItem(Map model , context) => Dismissible(
                   fontSize: 15.0,
   
                 ),
-  
               ),
-  
             ],
-  
           ),
-  
         ),
-  
         const SizedBox(
-  
           width: 10.0,
-  
         ),
   
         IconButton(
